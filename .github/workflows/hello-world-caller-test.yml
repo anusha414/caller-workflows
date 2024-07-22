@@ -3,4 +3,4 @@ on: workflow_dispatch
 
 jobs:
   call-hello-world-workflow:
-    uses: reusable-demo-workflows/.github/workflows/hello-world-workflow.yml@master
+    uses: anusha414/reusable-demo-workflows/.github/workflows/hello-world-workflow.yml@master
