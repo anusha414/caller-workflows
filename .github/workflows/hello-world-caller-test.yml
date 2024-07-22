@@ -1,0 +1,6 @@
+name: Test Basic Hello World Call.
+on: workflow_dispatch
+
+jobs:
+  call-hello-world-workflow:
+    uses: reusable-demo-workflows/.github/workflows/hello-world-workflow.yml@master
